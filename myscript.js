@@ -6,11 +6,14 @@ $(document).ready(function(){ //Run the following after the page is ready.
         $("h1").toggle();
     });
     $("#btn4").on("click",function(){
-            $("#square4").css("background-color","Purple").animate({ 
+            $("#square4").fadeTo("slow", 0.5);
+            $("#square4").animate({ 
             marginTop: "+250px",});
+            
     });
       $("#btn4").click(function(){
-        $("#square1").css("background-color","Purple").animate({ 
+        $("#square1").fadeTo("slow", 0.5);
+        $("#square1").animate({ 
             marginTop: "-248px",});
 });
 });
