@@ -27,7 +27,8 @@ footer, header, hgroup, menu, nav, section {
 /* End CSS Reset code */
 /* Begin My Css */
 html{
-    background:white;
+     background: linear-gradient(lavender,lightcyan);
+     height: 700px;
 }
 body{
     font-family: 'Chicle', cursive;
